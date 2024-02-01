@@ -10,7 +10,7 @@ Paired-end illumina sequencing data for alignment onto a fasta-formatted referen
 
 ## Dependencies
 
-The data processing scripts require python 3.8 or higher with matplotlib installed (`python -m pip install matplotlib`).  The scripts should be placed into a dedicated working directory. Other dependencies are:
+The data processing scripts require python 3.x with matplotlib installed (`python -m pip install matplotlib`).  The scripts should be placed into a dedicated working directory. Other dependencies are:
  - [bwa](https://bio-bwa.sourceforge.net/)
  - [samtools](http://www.htslib.org/)
  - [bcftools](https://samtools.github.io/bcftools/bcftools.html)
