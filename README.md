@@ -15,7 +15,7 @@ The data processing scripts require python 3.x with matplotlib installed (`pytho
  - [samtools](http://www.htslib.org/)
  - [bcftools](https://samtools.github.io/bcftools/bcftools.html)
 
-The scripts expect to find the bwa executable in /usr/local/bwa/bwa.  If yours is somewhere else, you'll need to symlink it there.
+The scripts expect to find the bwa executable in `/usr/local/bwa/bwa`.  If yours is somewhere else, you'll need to symlink it there.
 
 ## Organize pairs of sequences
 
