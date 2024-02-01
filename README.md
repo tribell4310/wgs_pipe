@@ -47,7 +47,7 @@ Paired-end sequencing data is usually returned from the sequencer as two .fastq.
 
 Now that the files are organized, we can align to a reference genome and perform analysis.
 
- - Run the second python script, specifying the reference genome for alignment and the max number of threads you want to give to the alignment processes: `python wgs_pipe_py1.py --ref ref.fa --max_threads 8`
+ - Run the second python script, specifying the reference genome for alignment and the max number of threads you want to give to the alignment processes: `python wgs_pipe_py2.py --ref ref.fa --max_threads 8`
  - Run the output bash script to start the pipeline: `bash RUNME.sh`
 
 ## Outputs
