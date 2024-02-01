@@ -30,17 +30,17 @@ Paired-end sequencing data is usually returned from the sequencer as two .fastq.
  - We want to process two samples.  One sample (TBb6-1) was sequenced on a single lane, but the other (MEb1-2) was sequenced across two lanes.
  - The csv output of `wgs_pipe_py1.py` looks like this:
 
-    `MEb1-2_S48_L001_R1_001.fastq.gz<br>
-MEb1-2_S48_L001_R2_001.fastq.gz<br>
-TBb6-1_S29_L001_R1_001.fastq.gz<br>
-TBb6-1_S29_L001_R2_001.fastq.gz<br>
-TBb6-1_S29_L002_R1_001.fastq.gz<br>
-TBb6-1_S29_L002_R2_001.fastq.gz`
+`MEb1-2_S48_L001_R1_001.fastq.gz`  
+`MEb1-2_S48_L001_R2_001.fastq.gz`  
+`TBb6-1_S29_L001_R1_001.fastq.gz`  
+`TBb6-1_S29_L001_R2_001.fastq.gz`  
+`TBb6-1_S29_L002_R1_001.fastq.gz`  
+`TBb6-1_S29_L002_R2_001.fastq.gz`  
 
  - We need to reformat it like this:
 
-    `MEb1-2_S48_L001_R1_001.fastq.gz,MEb1-2_S48_L001_R2_001.fastq.gz<br>
-TBb6-1_S29_L001_R1_001.fastq.gz,TBb6-1_S29_L001_R2_001.fastq.gz,TBb6-1_S29_L002_R1_001.fastq.gz,TBb6-1_S29_L002_R2_001.fastq.gz`
+`MEb1-2_S48_L001_R1_001.fastq.gz,MEb1-2_S48_L001_R2_001.fastq.gz`  
+`TBb6-1_S29_L001_R1_001.fastq.gz,TBb6-1_S29_L001_R2_001.fastq.gz,TBb6-1_S29_L002_R1_001.fastq.gz,TBb6-1_S29_L002_R2_001.fastq.gz`  
 
 
 ## Process the sequences
